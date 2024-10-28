@@ -1,0 +1,38 @@
+<!-- fragment_performance.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_performance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva seu desempenho"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_save_performance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar Desempenho"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_saved_performance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desempenho Salvo:"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
